@@ -1,0 +1,266 @@
+For Creating account table 
+CREATE TABLE PUBLIC.account(
+	account_id CHAR(20),
+	record_type_id CHAR(20),
+	account_creation_date TIMESTAMP,
+	PRIMARY KEY (account_id)
+);
+
+For Creating emails table
+CREATE TABLE PUBLIC.emails(
+	email_db_id CHAR(20),
+	mock_spouse_contact_id CHAR(20),
+	mock_veteran_contact_id CHAR(20),
+	mock_partner_contact_id CHAR(20),
+	Name VARCHAR,
+	EmailSentDate TIMESTAMP,
+	vr__Clicked__c BOOLEAN,
+	PRIMARY KEY (email_db_id),
+);
+For Creating spouse_dimension_table
+CREATE TABLE PUBLIC. spouse_dimension_table (
+	contact_id CHAR(20),
+	account_id CHAR(20),
+	gender__c CHAR(6),
+	highest_level_of_education_completed__c VARCHAR,
+	status__c CHAR(50),
+	active_color__c CHAR(6),
+	date_assigned_to_hhusa__c TIMESTAMP,
+	service_members_status__c CHAR(30),
+	date_turned_blue__c TIMESTAMP,
+	used_volunteer_services__c BOOLEAN,
+	state CHAR(30),
+	PRIMARY KEY (contact_id),
+	FOREIGN KEY (account_id) REFERENCES account(account_id)
+);
+
+For Creating a veteran_dimension_table
+CREATE TABLE PUBLIC. veteran_dimension_table (
+	contact_id CHAR(20),
+	account_id CHAR(20),
+	gender__c CHAR(6),
+	highest_level_of_education_completed__c VARCHAR,
+	status__c CHAR(50),
+	active_color__c CHAR(6),
+	date_assigned_to_hhusa__c TIMESTAMP,
+	service_members_status__c CHAR(30),
+	date_turned_blue__c TIMESTAMP,
+	used_volunteer_services__c BOOLEAN,
+	state CHAR(30),
+	PRIMARY KEY (contact_id),
+	FOREIGN KEY (account_id) REFERENCES account(account_id)
+);
+
+For Creating a partner_dimension_table
+CREATE TABLE PUBLIC. veteran_dimension_table (
+Contact_id CHAR(20)
+);
+
+For Creating Calendar 
+CREATE TABLE calender(
+	tkey SERIAL,
+	hour INT,
+	day CHAR(10),
+	week_day CHAR(3),
+	month CHAR(10),
+	quater CHAR(2),
+	year INT,
+	PRIMARY KEY (tkey)
+);
+
+For creating hhusa_fact_table
+
+CREATE TABLE hhusa_fact_table(
+	contact_id_of_spouse CHAR(20),
+	contact_id_of_veteran CHAR(20),
+	time_spent_at_hhusa INT,
+	FOREIGN KEY (contact_id_of_spouse) REFERENCES spouse_dimension_table(contact_id),
+	FOREIGN KEY (contact_id_of_veteran) REFERENCES veteran_dimension_table(contact_id)
+);
+For creating email_history_Fact_Table
+CREATE TABLE email_history_fact_table(
+	email_count INT
+);
+
+Populating hhusa_fact_table
+
+INSERT INTO hhusa_fact_table(contact_id_of_spouse, time_spent_at_hhusa)
+SELECT spouse_dimension_table.contact_id, 
+(
+	date_part('day',(spouse_dimension_table.date_turned_blue__c - 
+spouse_dimension_table.date_assigned_to_hhusa__c))
+)
+FROM spouse_dimension_table
+
+
+INSERT INTO hhusa_fact_table(contact_id_of_veteran, time_spent_at_hhusa)
+SELECT veteran_dimension_table.contact_id, 
+(
+	date_part('day',(veteran_dimension_table.date_turned_blue__c - 
+veteran_dimension_table.date_assigned_to_hhusa__c))
+)
+FROM veteran_dimension_table
+
+Creating a view called job_emails_to_clients 
+
+create view job_emails_to_clients as
+select emails.email_db_id, spouse_dimension_table.account_id, emails.emailsentdate
+from emails
+inner join spouse_dimension_table
+ON emails.mock_spouse_contact_id = spouse_dimension_table.contact_id
+union
+select emails.email_db_id, veteran_dimension_table.account_id, emails.emailsentdate
+from emails
+inner join veteran_dimension_table
+ON emails.mock_veteran_contact_id = veteran_dimension_table.contact_id
+
+	
+
+Number of new Client Accounts Created as a Result of Email 
+Campaign
+select count(job_emails_to_clients.email_db_id)
+from job_emails_to_clients
+inner join account
+on account.account_id = job_emails_to_clients.account_id
+where job_emails_to_clients.emailsentdate < account.account_creation_date
+Result: 96
+
+emails sent to already existing clients
+select count(job_emails_to_clients.email_db_id)
+from job_emails_to_clients
+inner join account
+on account.account_id = job_emails_to_clients.account_id
+where job_emails_to_clients.emailsentdate > account.account_creation_date
+Result: 9379
+
+
+Number of emails sent to partners
+select count(emails.email_db_id) 
+from emails
+inner join partner_dimension_table
+on partner_dimension_table.contact_id = emails.mock_partner_contact_id
+Result: 6626
+
+Total #of emails sent which was related to job opportunities
+select count(emails.email_db_id) 
+from emails
+Result: 19341
+
+
+Yearly analysis of number of created accounts
+SELECT date_part('year', account.account_creation_date) as yearly,
+       COUNT(account.account_id)           
+FROM account
+GROUP BY yearly
+ORDER BY yearly;
+
+Monthly analysis of number of created accounts
+
+SELECT 
+date_part('month', account.account_creation_date) AS month,
+to_char(account.account_creation_date, 'month' ) AS month_name,
+COUNT(account.account_id)           
+FROM account
+GROUP BY month, month_name
+ORDER BY month; 
+
+Yearly Performance of Quarters
+SELECT 
+	date_part('quarter', account.account_creation_date) as quarters,
+	date_part('year', account.account_creation_date) as years,
+	COUNT(account.account_id)           
+FROM account
+GROUP BY quarters, years
+ORDER BY quarters, years;
+
+Yearly Performance of Months
+SELECT 
+	date_part('month', account.account_creation_date) as months,
+	date_part('year', account.account_creation_date) as years,
+	COUNT(account.account_id)           
+FROM account
+GROUP BY months, years
+ORDER BY months, years;
+
+Weekly-Yearly performance
+
+SELECT 
+	date_part('year', account.account_creation_date) as year,
+	to_char(account.account_creation_date, 'Day') as week_day,
+	COUNT(account.account_id)
+FROM account
+GROUP BY CUBE(week_day, year)
+ORDER BY week_day,year;
+
+
+Rolling average of account creation in hours of a day over all years
+ 
+SELECT hours_of_day.*, AVG(counts) 
+OVER (PARTITION BY day ORDER BY hour rows between 11 preceding and current row) as rolling_average
+FROM 
+(SELECT 
+	date_part('hour', account.account_creation_date) as hour,
+	date_part('day', account.account_creation_date) as day,
+	COUNT(account.account_id) as counts
+FROM account
+GROUP BY day, hour
+ORDER BY hour) hours_of_day
+
+GROUP BY CUBE for time total time spent by spouse and respective 
+state
+select contact.time_spent_at_hhusa, contact.state 
+from
+(
+select contact_id_of_spouse, time_spent_at_hhusa, spouse_dimension_table.state
+from hhusa_fact_table
+inner join spouse_dimension_table
+on spouse_dimension_table.contact_id = hhusa_fact_table.contact_id_of_spouse
+where time_spent_at_hhusa >0
+) contact
+group by cube(contact.state, contact.time_spent_at_hhusa) 
+Rank of Contacts in Each state in terms of Days spent in HHUSA
+
+select contact.contact_id_of_spouse, contact.time_spent_at_hhusa, contact.state,
+rank() over(partition by contact.state order by contact.time_spent_at_hhusa desc) as state_rank
+from
+(
+select contact_id_of_spouse, time_spent_at_hhusa, spouse_dimension_table.state 
+from hhusa_fact_table
+inner join spouse_dimension_table
+on spouse_dimension_table.contact_id = hhusa_fact_table.contact_id_of_spouse
+where time_spent_at_hhusa >0
+) contact
+
+Computing cumulative totals for number of hours spent on HHUSA for 
+each state
+
+select contact.contact_id_of_spouse, contact.time_spent_at_hhusa, contact.state ,
+sum(contact.time_spent_at_hhusa) over(partition by contact.state order by contact.time_spent_at_hhusa asc) as 
+cumulative_hours_spent
+from
+(
+select contact_id_of_spouse, time_spent_at_hhusa, spouse_dimension_table.state
+from hhusa_fact_table
+inner join spouse_dimension_table
+on spouse_dimension_table.contact_id = hhusa_fact_table.contact_id_of_spouse
+where time_spent_at_hhusa >0
+) contact
+
+Mobile average of time spent by spouse on their highest degree
+
+select contact.highest_level_of_education_completed__c, contact.time_spent_at_hhusa, 
+avg(contact.time_spent_at_hhusa) over(order by contact.highest_level_of_education_completed__c ROWS 2 PRECEDING)
+from
+(
+select contact_id_of_spouse, time_spent_at_hhusa, spouse_dimension_table.state, 
+spouse_dimension_table.highest_level_of_education_completed__c
+from hhusa_fact_table
+inner join spouse_dimension_table
+on spouse_dimension_table.contact_id = hhusa_fact_table.contact_id_of_spouse
+where time_spent_at_hhusa >0
+) contact
+group by contact.highest_level_of_education_completed__c, contact.time_spent_at_hhusa
+
+
+
+

@@ -1,0 +1,247 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1810.82178 999.44597">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 19.20762px;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-18, .cls-9 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.05521em;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.11084em;
+      }
+
+      .cls-15, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4, .cls-7 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.01805em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.03711em;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.09182em;
+      }
+
+      .cls-9 {
+        font-size: 19.20778px;
+      }
+
+      .cls-10, .cls-11 {
+        font-size: 15.3661px;
+      }
+
+      .cls-10 {
+        fill: #f7931e;
+      }
+
+      .cls-11 {
+        fill: #006837;
+      }
+
+      .cls-12 {
+        font-size: 19.2076px;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.05519em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0.00003em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0.03709em;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.00003em;
+      }
+
+      .cls-18 {
+        font-size: 19.96765px;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.01807em;
+      }
+
+      .cls-20 {
+        letter-spacing: -0.03711em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0.00003em;
+      }
+
+      .cls-22 {
+        letter-spacing: -0.01807em;
+      }
+
+      .cls-23 {
+        fill: #ffc200;
+      }
+
+      .cls-24 {
+        fill: #f41700;
+      }
+    </style>
+  </defs>
+  <path d="M1379.80261,927.79175v51.78137H1118.01782V927.79175h261.78479m1-1H1117.01782v53.78137h263.78479V926.79175Z" transform="translate(-59.01221 -305.55403)"/>
+  <text class="cls-1" transform="translate(1105.88135 648.12859)">HHUS<tspan class="cls-2" x="54.4248" y="0">A</tspan><tspan x="66.17578" y="0" xml:space="preserve"> _Fact</tspan><tspan class="cls-3" x="119.55078" y="0">T</tspan><tspan x="129.1543" y="0">able</tspan></text>
+  <rect class="cls-4" x="1058.64589" y="675.01907" width="262.50421" height="91.9269"/>
+  <path d="M522.80255,484.79175v51.78136H261.01785V484.79175h261.7847m1-1H260.01785v53.78136h263.7847V483.79175Z" transform="translate(-59.01221 -305.55403)"/>
+  <text class="cls-1" transform="translate(206.87842 205.12859)">Account_creation_history_F<tspan class="cls-5" x="238.08789" y="0">T</tspan></text>
+  <rect class="cls-4" x="201.64589" y="231.94597" width="262.50421" height="81.80867"/>
+  <path class="cls-4" d="M619.06693,423.164" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M1380.80256,1080.45275" transform="translate(-59.01221 -305.55403)"/>
+  <text class="cls-1" transform="translate(1120.74951 701.72917)">ContactId</text>
+  <text class="cls-1" transform="translate(1120.74951 751.6696)"><tspan class="cls-6">T</tspan><tspan x="11.01953" y="0">imeSpentAtHHUS</tspan><tspan class="cls-2" x="164.7373" y="0">A</tspan></text>
+  <line class="cls-4" x1="1058.64589" y1="720.47712" x2="1321.1501" y2="720.47712"/>
+  <line class="cls-4" x1="1059.28614" y1="766.57542" x2="1321.79035" y2="766.57542"/>
+  <path class="cls-4" d="M743.94982,394.85713" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M619.06693,423.164" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M857.45172,368.47347" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M743.94982,394.85713" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M1384.0242,572.80988" transform="translate(-59.01221 -305.55403)"/>
+  <circle class="cls-7" cx="1451.78231" cy="267.25585" r="12.80508"/>
+  <text class="cls-1" transform="translate(1404.47412 310.29558)"><tspan class="cls-6">T</tspan><tspan x="11.01953" y="0">imestamp</tspan></text>
+  <path class="cls-4" d="M1594.22883,1041.23672" transform="translate(-59.01221 -305.55403)"/>
+  <line class="cls-4" x1="1322.01199" y1="735.25585" x2="1779.15346" y2="735.25585"/>
+  <circle class="cls-7" cx="1534.57637" cy="735.25585" r="12.80508"/>
+  <circle class="cls-7" cx="1620.37043" cy="735.25585" r="12.80508"/>
+  <circle class="cls-7" cx="1706.16449" cy="735.25585" r="12.80508"/>
+  <text class="cls-1" transform="translate(1676.23486 778.29558)">Quater</text>
+  <circle class="cls-7" cx="1448.78231" cy="735.25585" r="12.80508"/>
+  <text class="cls-1" transform="translate(1431.53271 778.29558)">Day</text>
+  <text class="cls-1" transform="translate(1509.89795 778.29558)"><tspan class="cls-5">W</tspan><tspan x="17.78223" y="0">eek</tspan></text>
+  <text class="cls-1" transform="translate(1593.24268 778.29558)">Month</text>
+  <text class="cls-1" transform="translate(1771.74365 778.29558)"><tspan class="cls-8">Y</tspan><tspan x="11.04785" y="0">ear</tspan></text>
+  <path class="cls-4" d="M1722.27966,1041.23672" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M1594.22883,1041.23672" transform="translate(-59.01221 -305.55403)"/>
+  <circle class="cls-7" cx="1791.95854" cy="735.25585" r="12.80508"/>
+  <path class="cls-4" d="M1838.80592,1040.59646" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M1722.27966,1041.23672" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M617.202,409.1438" transform="translate(-59.01221 -305.55403)"/>
+  <line class="cls-4" x1="350.16542" y1="150.30441" x2="795.99735" y2="49.24893"/>
+  <circle class="cls-7" cx="557.47102" cy="103.31503" r="12.80508"/>
+  <circle class="cls-7" cx="641.14256" cy="84.34943" r="12.80508"/>
+  <circle class="cls-7" cx="724.8141" cy="65.38384" r="12.80508"/>
+  <text class="cls-1" transform="translate(705.42508 104.22455) rotate(-1.04399)">Quater</text>
+  <circle class="cls-7" cx="473.79948" cy="122.28062" r="12.80508"/>
+  <text class="cls-1" transform="translate(454.7655 164.68301) rotate(-1.04399)">Day</text>
+  <text class="cls-1" transform="translate(536.11644 145.25521) rotate(-1.04399)"><tspan class="cls-5">W</tspan><tspan x="17.78223" y="0">eek</tspan></text>
+  <text class="cls-1" transform="translate(622.447 126.73667) rotate(-1.04399)">Month</text>
+  <text class="cls-1" transform="translate(795.91763 89.48438) rotate(-1.04399)"><tspan class="cls-8">Y</tspan><tspan x="11.04785" y="0">ear</tspan></text>
+  <path class="cls-4" d="M742.0849,380.83694" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M617.202,409.1438" transform="translate(-59.01221 -305.55403)"/>
+  <circle class="cls-7" cx="808.48564" cy="46.41824" r="12.80508"/>
+  <path class="cls-4" d="M855.5868,354.45329" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M742.0849,380.83694" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-4" d="M1507.71481,93.71729" transform="translate(-59.01221 -305.55403)"/>
+  <circle class="cls-4" cx="1182.43909" cy="13.30509" r="12.80508"/>
+  <line class="cls-4" x1="1182.75129" y1="140.0815" x2="1182.8434" y2="25.6153"/>
+  <circle class="cls-4" cx="936.17754" cy="213.51841" r="12.80508"/>
+  <line class="cls-4" x1="1062.93832" y1="215.53268" x2="948.13265" y2="215.53268"/>
+  <text x="-59.01221" y="-305.55403"/>  <path d="M1383.66443,446.18588v51.78137H1121.87976V446.18588h261.78467m1-1H1120.87976v53.78137h263.78467V445.18588Z" transform="translate(-59.01221 -305.55403)"/>
+  <text class="cls-1" transform="translate(1105.47217 172.92546)">Email_History_Fact<tspan class="cls-3" x="166.50977" y="0">T</tspan><tspan x="176.11328" y="0">able</tspan></text>
+  <rect class="cls-4" x="1062.50778" y="193.4132" width="262.50421" height="240.73556"/>
+  <line class="cls-4" x1="1062.50778" y1="238.87125" x2="1325.01199" y2="238.87125"/>
+  <text x="-59.01221" y="-305.55403"/>  <text class="cls-9" transform="translate(1132.95933 220.6485) rotate(-0.16215)">EmailDBId</text>
+  <text class="cls-9" transform="translate(1132.96007 310.28495) rotate(-0.16215)">EmailCount (Agg.)</text>
+  <text class="cls-9" transform="translate(278.96007 294.28495) rotate(-0.16215)">number_of_accounts</text>
+  <text class="cls-1" transform="translate(1133.57471 267.74675)">ContactId</text>
+  <text class="cls-10" transform="translate(1068.40869 268.08659)">FK</text>
+  <text class="cls-11" transform="translate(1068.40869 220.70769)">PK</text>
+  <text class="cls-10" transform="translate(1064.54639 702.31316)">FK</text>
+  <text class="cls-12" transform="matrix(0.99991, 0.01344, -0.01344, 0.99991, 875.26309, 262.64083)">Email Name</text>
+  <line class="cls-4" x1="1063.14804" y1="263.20091" x2="1005.52516" y2="263.20091"/>
+  <text class="cls-1" transform="translate(1209.49561 19.17107)">Clicked</text>
+  <line class="cls-4" x1="1061.86753" y1="283.68904" x2="1324.37174" y2="283.68904"/>
+  <line class="cls-4" x1="1061.86753" y1="328.50683" x2="1324.37174" y2="328.50683"/>
+  <line class="cls-4" x1="1057.36538" y1="698.7466" x2="573.83071" y2="698.7466"/>
+  <circle class="cls-7" cx="572.55021" cy="698.7466" r="12.80508"/>
+  <circle class="cls-7" cx="689.07646" cy="781.97964" r="12.80508"/>
+  <text class="cls-1" transform="translate(621.69629 723.60905)">Contact</text>
+  <text class="cls-1" transform="translate(697.06299 668.54655)">Education Level</text>
+  <text class="cls-1" transform="translate(600.69971 543.30144)">Employment<tspan x="26.14795" y="23.04932">Status</tspan></text>
+  <text class="cls-1" transform="translate(553.58008 461.10515)">Active<tspan x="-2.13867" y="23.04932">Colour</tspan></text>
+  <line class="cls-4" x1="581.51376" y1="707.71016" x2="680.1129" y2="773.01608"/>
+  <text class="cls-1" transform="translate(672.16602 815.21941)">Donor ?</text>
+  <text class="cls-1" transform="translate(458.73877 993.20866)">Mailing State</text>
+  <text class="cls-1" transform="translate(565.6582 911.25652)">Postal Code</text>
+  <text class="cls-1" transform="translate(500.14941 825.46257)">Gender</text>
+  <text class="cls-1" transform="translate(393.8667 774.56023)"><tspan class="cls-13">V<tspan class="cls-14" x="11.75146" y="0">eteran</tspan></tspan><tspan x="24.56738" y="23.04883">or</tspan><tspan x="-4.80664" y="46.09863">Spouse?</tspan></text>
+  <text class="cls-1" transform="translate(287.70996 732.35222)">Corresponding <tspan x="30.96387" y="23.04932">Account</tspan></text>
+  <text class="cls-1" transform="translate(415.2251 901.01335)">Day<tspan class="cls-6" x="-34.88428" y="23.04883">T</tspan><tspan x="-23.86426" y="23.04883">urned Blue</tspan></text>
+  <line class="cls-4" x1="577.67224" y1="710.27118" x2="712.12561" y2="927.95759"/>
+  <circle class="cls-7" cx="712.12561" cy="927.95759" r="12.80508"/>
+  <line class="cls-4" x1="560.38538" y1="698.10635" x2="309.40575" y2="698.10635"/>
+  <circle class="cls-7" cx="308.76549" cy="698.7466" r="12.80508"/>
+  <line class="cls-4" x1="572.55021" y1="711.55168" x2="568.06843" y2="870.97497"/>
+  <circle class="cls-7" cx="568.70868" cy="870.33472" r="12.80508"/>
+  <line class="cls-4" x1="567.42817" y1="710.27118" x2="532.21419" y2="795.42498"/>
+  <circle class="cls-7" cx="531.57394" cy="796.06523" r="12.80508"/>
+  <line class="cls-15" x1="584.71503" y1="692.98431" x2="620.56927" y2="685.30126"/>
+  <line class="cls-4" x1="584.07478" y1="693.62457" x2="667.30782" y2="668.0144"/>
+  <circle class="cls-7" cx="667.30782" cy="668.0144" r="12.80508"/>
+  <line class="cls-4" x1="563.58665" y1="881.85929" x2="513.00657" y2="941.40293"/>
+  <circle class="cls-7" cx="513.64682" cy="940.76267" r="12.80508"/>
+  <line class="cls-4" x1="577.67224" y1="687.22203" x2="630.81333" y2="589.26314"/>
+  <circle class="cls-7" cx="630.17308" cy="589.90339" r="12.80508"/>
+  <line class="cls-4" x1="573.83071" y1="685.94152" x2="580.23326" y2="510.51188"/>
+  <circle class="cls-7" cx="580.23326" cy="510.51188" r="12.80508"/>
+  <line class="cls-4" x1="568.70868" y1="685.94152" x2="499.56123" y2="456.73053"/>
+  <circle class="cls-7" cx="498.28072" cy="455.45002" r="12.80508"/>
+  <text class="cls-1" transform="translate(323.62402 475.99577)">Service Membe<tspan class="cls-16" x="133.43115" y="0">r</tspan><tspan class="cls-5" x="140.54004" y="0">’</tspan><tspan class="cls-17" x="144.46045" y="0">s</tspan><tspan x="49.80566" y="23.04932">Status</tspan></text>
+  <text class="cls-1" transform="translate(318.17188 588.11882)">Used <tspan class="cls-13" x="50.17627" y="0">V</tspan><tspan x="61.92773" y="0">olunteery</tspan><tspan x="30.43848" y="23.04932">Service ?</tspan></text>
+  <line class="cls-4" x1="564.86716" y1="688.50253" x2="426.57226" y2="519.47544"/>
+  <circle class="cls-7" cx="426.57226" cy="519.47544" r="12.80508"/>
+  <line class="cls-4" x1="562.94639" y1="707.0699" x2="432.33454" y2="860.7309"/>
+  <circle class="cls-7" cx="431.69429" cy="861.37116" r="12.80508"/>
+  <line class="cls-4" x1="560.38538" y1="703.22838" x2="457.94471" y2="745.48515"/>
+  <circle class="cls-7" cx="458.58496" cy="744.8449" r="12.80508"/>
+  <line class="cls-4" x1="561.02563" y1="693.62457" x2="401.60234" y2="634.08093"/>
+  <circle class="cls-7" cx="400.96209" cy="633.44068" r="12.80508"/>
+  <text class="cls-18" transform="translate(51.23145 571.58171) scale(0.96194 1)">Account<tspan x="-53.25847" y="23.96094">Creation</tspan><tspan class="cls-19" x="22.21514" y="23.96094"> </tspan><tspan class="cls-20" x="27.4018" y="23.96094">T</tspan><tspan class="cls-21" x="38.85784" y="23.96094">imestamp</tspan></text>
+  <text class="cls-1" transform="translate(146.42773 815.80534)">Record<tspan class="cls-22" x="61.91846" y="0"> </tspan><tspan class="cls-13" x="66.90771" y="0">T</tspan><tspan x="77.58057" y="0">ype</tspan></text>
+  <line class="cls-4" x1="299.80193" y1="689.78304" x2="199.92228" y2="589.90339"/>
+  <line class="cls-4" x1="201.20279" y1="781.97964" x2="299.80193" y2="707.71016"/>
+  <circle class="cls-7" cx="201.20279" cy="591.1839" r="12.80508"/>
+  <circle class="cls-7" cx="201.20279" cy="780.69913" r="12.80508"/>
+  <text class="cls-1" transform="translate(653.81689 969.02019)">Day<tspan class="cls-2" x="34.15723" y="0"> </tspan><tspan x="38.43359" y="0">Assigned</tspan><tspan x="14.95898" y="23.04883">to HHUS</tspan><tspan class="cls-2" x="90.73926" y="23.04883">A</tspan></text>
+  <text class="cls-1" transform="translate(462.7583 412.4987)">Client ?</text>
+  <line class="cls-4" x1="548.8608" y1="870.97497" x2="589.83707" y2="870.97497"/>
+  <line class="cls-4" x1="631.45359" y1="767.89405" x2="659.62477" y2="732.03982"/>
+  <path class="cls-23" d="M1150.77452,996.43749a6.39847,6.39847,0,0,0,3.40072,5.66814l-.00233,1.06513a.22372.22372,0,0,0,.07613.16542l1.43013,1.19385a.21635.21635,0,0,1-.00069.33029l-1.314,1.087a.218.218,0,0,0-.00069.33051l1.30948,1.0925a.21617.21617,0,0,1-.0008.3304l-1.314,1.087a.21782.21782,0,0,0-.00058.33041l1.31179,1.09993a.21274.21274,0,0,1-.00056.32553l-1.44,1.19765a.20814.20814,0,0,0-.07437.16266l.01277,1.01089a.35426.35426,0,0,0,.10305.24183l2.35711,2.35714a.69519.69519,0,0,0,.99376.00451l2.42618-2.41124a.44339.44339,0,0,0,.07692-.27353l.02238-10.71556a6.39932,6.39932,0,1,0-9.37242-5.68055Zm7.943,14.904a.36516.36516,0,0,1-.35089.34943.32666.32666,0,0,1-.3347-.33609.36516.36516,0,0,1,.35089-.34943.32666.32666,0,0,1,.3347.33609Zm.07024-8.91315-.01595,7.678a.34767.34767,0,1,1-.69533-.00156l.01595-7.67777a.343.343,0,0,1,.10407-.2465.33494.33494,0,0,1,.24437-.10049.34709.34709,0,0,1,.34689.34833Zm.09663-8.53076a1.7062,1.7062,0,1,1-1.70275-1.70984A1.70588,1.70588,0,0,1,1158.88434,993.89755Z" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-24" d="M1154.63642,560.92992a6.39848,6.39848,0,0,0,3.40071,5.66814l-.00232,1.06513a.22371.22371,0,0,0,.07612.16542l1.43013,1.19385a.21636.21636,0,0,1-.00068.33029l-1.314,1.087a.218.218,0,0,0-.00068.33051l1.30947,1.0925a.21618.21618,0,0,1-.00079.3304l-1.314,1.087a.21781.21781,0,0,0-.00057.33041l1.31179,1.09993a.21275.21275,0,0,1-.00057.32553l-1.44,1.19765a.20814.20814,0,0,0-.07437.16266l.01278,1.01089a.3543.3543,0,0,0,.103.24183l2.35711,2.35714a.6952.6952,0,0,0,.99377.00451l2.42617-2.41124a.44346.44346,0,0,0,.07693-.27353l.02237-10.71556a6.39932,6.39932,0,1,0-9.37241-5.68055Zm7.94295,14.904a.36517.36517,0,0,1-.35089.34943.32666.32666,0,0,1-.3347-.33609.36515.36515,0,0,1,.35088-.34943.32666.32666,0,0,1,.33471.33609Zm.07023-8.91315-.01595,7.678a.34766.34766,0,1,1-.69532-.00156l.01595-7.67777a.343.343,0,0,1,.10406-.2465.335.335,0,0,1,.24438-.10049.34709.34709,0,0,1,.34688.34833Zm.09664-8.53076a1.7062,1.7062,0,1,1-1.70275-1.70984A1.70591,1.70591,0,0,1,1162.74624,558.39Z" transform="translate(-59.01221 -305.55403)"/>
+  <text class="cls-1" transform="translate(276.57471 256.74675)"><tspan class="cls-6">T</tspan><tspan x="11.01953" y="0">imeKey</tspan></text>
+  <text class="cls-10" transform="translate(211.40869 257.08659)">FK</text>
+  <path class="cls-24" d="M297.63642,549.92992a6.39848,6.39848,0,0,0,3.40071,5.66814l-.00232,1.06513a.22371.22371,0,0,0,.07612.16542l1.43013,1.19385a.21636.21636,0,0,1-.00068.33029l-1.314,1.087a.218.218,0,0,0-.00068.33051l1.30947,1.0925a.21618.21618,0,0,1-.00079.3304l-1.314,1.087a.21781.21781,0,0,0-.00057.33041l1.31179,1.09993a.21275.21275,0,0,1-.00057.32553l-1.44,1.19765a.20814.20814,0,0,0-.07437.16266l.01278,1.01089a.3543.3543,0,0,0,.103.24183l2.35711,2.35714a.6952.6952,0,0,0,.99377.00451l2.42617-2.41124a.44346.44346,0,0,0,.07693-.27353l.02237-10.71556a6.39932,6.39932,0,1,0-9.37241-5.68055Zm7.94295,14.904a.36517.36517,0,0,1-.35089.34943.32666.32666,0,0,1-.3347-.33609.36515.36515,0,0,1,.35088-.34943.32666.32666,0,0,1,.33471.33609Zm.07023-8.91315-.016,7.678a.34766.34766,0,1,1-.69532-.00156l.01595-7.67777a.343.343,0,0,1,.10406-.2465.335.335,0,0,1,.24438-.10049.34709.34709,0,0,1,.34688.34833Zm.09664-8.53076a1.7062,1.7062,0,1,1-1.70275-1.70984A1.70591,1.70591,0,0,1,305.74624,547.39Z" transform="translate(-59.01221 -305.55403)"/>
+  <path class="cls-23" d="M1153.35591,512.27061a6.39846,6.39846,0,0,0,3.40071,5.66813l-.00232,1.06513a.22372.22372,0,0,0,.07613.16542l1.43013,1.19385a.21638.21638,0,0,1-.00069.3303l-1.314,1.087a.218.218,0,0,0-.00069.33052l1.30947,1.09249a.21618.21618,0,0,1-.00079.3304l-1.314,1.087a.21782.21782,0,0,0-.00057.3304l1.31179,1.09994a.21274.21274,0,0,1-.00057.32552l-1.44,1.19766a.20812.20812,0,0,0-.07436.16266l.01277,1.01089a.3543.3543,0,0,0,.103.24183l2.35711,2.35714a.6952.6952,0,0,0,.99376.0045l2.42617-2.41124a.44346.44346,0,0,0,.07693-.27353l.02237-10.71556a6.39932,6.39932,0,1,0-9.37241-5.68054Zm7.943,14.904a.36518.36518,0,0,1-.35089.34943.32667.32667,0,0,1-.3347-.3361.36516.36516,0,0,1,.35089-.34943.32667.32667,0,0,1,.3347.3361Zm.07024-8.91316-.016,7.678a.34766.34766,0,1,1-.69532-.00155l.016-7.67777a.34309.34309,0,0,1,.10406-.24651.335.335,0,0,1,.24438-.10049.34711.34711,0,0,1,.34689.34833Zm.09663-8.53075a1.7062,1.7062,0,1,1-1.70275-1.70984A1.7059,1.7059,0,0,1,1161.46573,509.73067Z" transform="translate(-59.01221 -305.55403)"/>
+  <line class="cls-4" x1="1005.48779" y1="262.94597" x2="582.48779" y2="689.94597"/>
+  <line class="cls-4" x1="308.98779" y1="685.44597" x2="308.98779" y2="313.44597"/>
+  <line class="cls-4" x1="349.98779" y1="150.44597" x2="349.98779" y2="178.44597"/>
+  <line class="cls-4" x1="201.98779" y1="268.44597" x2="463.98779" y2="268.44597"/>
+  <line class="cls-4" x1="1325.48779" y1="266.94597" x2="1438.48779" y2="266.94597"/>
+</svg>
